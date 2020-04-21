@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+    margin: 3%;
+    font-size: 450%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.paragrafo{
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.genio{
+    padding: 10px;
+}
+
+input{
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.botao{
+    display: block;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto ;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tentativas{
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.segundaTentativa{
+    transition: 0.5s;
+    color: orange;
+    font-size: large;
+}
+
+.terceiraTentativa{
+    transition: 0.5s;
+    color: red;
+    font-size: larger;
+}

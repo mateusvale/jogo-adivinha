@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Jogo de Adivinha</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="adivinha_2.css">
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <div>
+            <h1>Jogo de Adivinha</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="paragrafo">   
+            <p>O objetivo do jogo é adivinhar um número de 0 até 10.</p>
+            <p>Será que você consegue?</p>
+            <img class="genio" id="genio" src="imagePensando.jpeg">
+        </div>
+
+        <div class="principal">
+            <input placeholder="Digite um valor">
+            <button class="botao">Testar Valor</button>
+            <label class="tentativas">Número de tentativas: 3</label>
+
+        </div>
+
+    </main>
+
+    <script src="cerebro.js"></script>
+
+
+</body>
+
+</html>
